@@ -1,0 +1,6 @@
+file_obj=open("p.txt","w")
+file_obj=open("p.txt","a")
+file_obj.write("hello world.....")
+tr=file_obj.read()
+print(tr)
+file_obj.close()
